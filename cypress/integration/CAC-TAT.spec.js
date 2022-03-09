@@ -122,4 +122,8 @@ describe('Central de Atendimento ao Cliente TAT', function() {
     cy.contains('Política de Privacidade').invoke('removeAttr', 'target').click();
     cy.get('#title').should('have.text', 'CAC TAT - Política de privacidade');
   });
+
+  it.only('encontrar o gato escondido na aplicação', () => {
+      cy.get('#cat').invoke('show').should('be.visible');
+  });
 });
