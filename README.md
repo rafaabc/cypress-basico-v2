@@ -1,3 +1,5 @@
+[![End-to-end tests 🧪](https://github.com/rafaabc/cypress-basico-v2/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/rafaabc/cypress-basico-v2/actions/workflows/ci.yml)
+
 # cypress-basico-v2
 
 Sample project for the basic course of the Talking About Testing online school.
